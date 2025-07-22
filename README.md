@@ -18,7 +18,7 @@ O ESLint é uma ferramenta de **análise estática de código**, que faz parte d
 | **Segurança** (com plugins)      | Pode detectar padrões inseguros no código, como uso indevido de funções         |
 | **Qualidade interna**            | Aponta problemas que afetam organização, legibilidade e consistência do código  |
 
-> 💬 **Resumo prático**: O ESLint não testa se o programa *funciona*, ele lê seu código e avalia se está *bem feito* e *seguro*.
+> 💬 **Resumo prático**: O ESLint não testa se o programa *funciona*, ele lê seu código e avalia se está *bem feito* e *aponta problemas*.
 
 ---
 
@@ -95,15 +95,22 @@ Você pode incluir outras:
 
 ## 🧪 Como usar na prática
 
-### Para rodar o ESLint:
-```bash
-npx eslint src/
-```
-
 ### Para gerar relatório HTML:
 ```bash
  npx eslint src/ -f html -o eslint-report.html
 ```
+
+---
+
+| 🧩 Parte do comando        | 📝 Significado                                                                 |
+|----------------------------|--------------------------------------------------------------------------------|
+| `npx`                      | Executa pacotes diretamente sem instalar globalmente                          |
+| `eslint`                   | Invoca o ESLint para analisar o código                                        |
+| `src/`                     | Pasta que será varrida pelo ESLint                                            |
+| `-f html`                  | Formato do relatório de saída será HTML                                       |
+| `-o eslint-report.html`    | Nome do arquivo gerado com o relatório (salvo na raiz ou pasta atual do projeto) |
+
+---
 
 Abra o `eslint-report.html` no navegador para ver os alertas.
 
