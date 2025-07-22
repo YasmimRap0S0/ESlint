@@ -1,4 +1,4 @@
-# 🧩 ESLint — Guia Prático e Classificação nos Testes Não Funcionais
+# 🧩 ESLint — Guia Prático
 
 ## 📌 Categoria de Teste Não Funcional: Onde entra o ESLint?
 
