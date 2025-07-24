@@ -137,3 +137,7 @@ O ESLint é essencial para garantir:
 - [Documentação oficial traduzida](https://pt-br.eslint.org/)
 - [Instalando e Configurando ESLint | Tutorial Definitivo (2024)](https://www.youtube.com/watch?v=JgEszvVTe5g)
 - [Configurando ESLint: Alura](https://www.alura.com.br/conteudo/eslint-padronizando-codigo-regras-personalizadas)
+
+---
+
+Observação: Embora o vídeo mencione o ESLint como uma ferramenta de teste não funcional, tecnicamente ele não se enquadra nessa categoria. O ESLint é uma ferramenta de análise estática de código, que atua antes da execução do sistema, identificando erros de sintaxe, problemas de estilo e violações de boas práticas. Ele contribui para a qualidade interna do software, mas não realiza testes que avaliem o comportamento ou desempenho do sistema em tempo real.
