@@ -2,7 +2,7 @@
 
 ## 📌 Categoria: Onde entra o ESLint?
 
-O ESLint é uma ferramenta de **análise estática de código**, que **contribui** para os **testes não funcionais** — aqueles que avaliam aspectos como segurança, desempenho e qualidade interna **sem executar o sistema**. Ele analisa seu código JavaScript (incluindo React) em busca de:
+O ESLint é uma ferramenta de **análise estática de código**, que **contribui** para os **testes não funcionais** — aqueles que avaliam aspectos como segurança, desempenho e qualidade interna. Ele analisa seu código JavaScript (incluindo React) em busca de:
 
 - ❌ **Erros de sintaxe**
 - 🎯 **Más práticas de programação**
