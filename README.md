@@ -1,8 +1,8 @@
 # 🧩 ESLint — Guia Prático
 
-## 📌 Categoria de Teste Não Funcional: Onde entra o ESLint?
+## 📌 Categoria: Onde entra o ESLint?
 
-O ESLint é uma ferramenta de **análise estática de código**, que faz parte dos **testes não funcionais** — aqueles que avaliam aspectos como segurança, desempenho e qualidade interna **sem executar o sistema**. Ele analisa seu código JavaScript (incluindo React) em busca de:
+O ESLint é uma ferramenta de **análise estática de código**, que **contribui** para os **testes não funcionais** — aqueles que avaliam aspectos como segurança, desempenho e qualidade interna **sem executar o sistema**. Ele analisa seu código JavaScript (incluindo React) em busca de:
 
 - ❌ **Erros de sintaxe**
 - 🎯 **Más práticas de programação**
@@ -11,7 +11,7 @@ O ESLint é uma ferramenta de **análise estática de código**, que faz parte d
 
 ### 🔧 Contribuições do ESLint por categoria:
 
-| Categoria de Teste Não Funcional | Papel do ESLint                                                                 |
+| Categoria | Papel do ESLint                                                                 |
 |----------------------------------|----------------------------------------------------------------------------------|
 | **Manutenibilidade**             | Garante código limpo, padronizado e fácil de manter                             |
 | **Reusabilidade**                | Estimula boas práticas que facilitam reaproveitamento de componentes            |
